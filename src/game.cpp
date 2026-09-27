@@ -1,24 +1,22 @@
 #include "raylib.h"
 
 int main(){
-    InitWindow(800,450,"game");
-    double x,y;
+    double player_x,player_y;
+    InitWindow(800,450,"--Game--");
     SetTargetFPS(60);
     while(!WindowShouldClose()){
         if(IsKeyDown(KEY_W)){//up
-            //IsKeyDown(KEY_W)
-            y-=5;
-        }if(IsKeyDown(KEY_S)){//dowin
-            y+=5;
-        }if(IsKeyDown(KEY_A)){//lefit
-            x-=5;
+            player_y-=5;
+        }if(IsKeyDown(KEY_S)){//down
+            player_y+=5;
+        }if(IsKeyDown(KEY_A)){//left
+            player_x-=5;
         }if(IsKeyDown(KEY_D)){//right
-            x+=5;
+            player_x+=5;
         }
         BeginDrawing();
         ClearBackground(RAYWHITE);
-        DrawRectangle(x,y,50,50,RED);
+        DrawRectangle(player_x,player_y,100,100,RED);
         EndDrawing();
-    }
-    return 0;
+    };
 }
