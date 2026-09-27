@@ -1,17 +1,18 @@
 #include "raylib.h"
-using namespace std;
 
 int main(){
-    InitWindow(800,450,"game")
+    InitWindow(800,450,"game");
     double x,y;
+    SetTargetFPS(60);
     while(!WindowShouldClose()){
-        if(IsKEYDOWN(w)){//up
+        if(IsKeyDown(KEY_W)){//up
+            //IsKeyDown(KEY_W)
             y-=5;
-        }if(IsKeyDown(s)){//down
+        }if(IsKeyDown(KEY_S)){//dowin
             y+=5;
-        }if(IsKeyDown(a)){//left
+        }if(IsKeyDown(KEY_A)){//lefit
             x-=5;
-        }if(IsKeyDown(d)){//right
+        }if(IsKeyDown(KEY_D)){//right
             x+=5;
         }
         BeginDrawing();
