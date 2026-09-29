@@ -1,22 +1,20 @@
 #include "raylib.h"
 
 int main(){
-    double player_x,player_y;
-    InitWindow(800,450,"--Game--");
-    SetTargetFPS(60);
+    
+    double player_x = 200 ,player_y = 300;
+    int window_x = 800,window_y = 450;
+    int player_size_x=50,player_size_y=50;
+    InitWindow(window_x,window_y,"--GAME--OVER--");
+    Texture2D player = LoadTexture("./texture/player.png");
+    SetTargetFPS(120);
+
     while(!WindowShouldClose()){
-        if(IsKeyDown(KEY_W)){//up
-            player_y-=5;
-        }if(IsKeyDown(KEY_S)){//down
-            player_y+=5;
-        }if(IsKeyDown(KEY_A)){//left
-            player_x-=5;
-        }if(IsKeyDown(KEY_D)){//right
-            player_x+=5;
-        }
         BeginDrawing();
         ClearBackground(RAYWHITE);
-        DrawRectangle(player_x,player_y,100,100,RED);
+        DrawTexture(player,player_x,player_y,WHITE);
         EndDrawing();
     };
+    UnloadTexture(player);
+    CloseWindow();
 }
