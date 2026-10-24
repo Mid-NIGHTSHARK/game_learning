@@ -1,8 +1,0 @@
-[
-{
-  "directory": "/Users/zero/Documents/Area/testing area/game_learning/build",
-  "command": "/usr/bin/c++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -DUSE_LIBTYPE_SHARED -isystem /opt/homebrew/include  -arch arm64 -F/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/System/Library/Frameworks  -o CMakeFiles/game.dir/src/game.cpp.o -c \"/Users/zero/Documents/Area/testing area/game_learning/src/game.cpp\"",
-  "file": "/Users/zero/Documents/Area/testing area/game_learning/src/game.cpp",
-  "output": "CMakeFiles/game.dir/src/game.cpp.o"
-}
-]
