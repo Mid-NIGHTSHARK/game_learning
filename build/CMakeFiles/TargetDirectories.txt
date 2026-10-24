@@ -1,0 +1,3 @@
+/Users/zero/Documents/Area/testing area/game_learning/build/CMakeFiles/game.dir
+/Users/zero/Documents/Area/testing area/game_learning/build/CMakeFiles/edit_cache.dir
+/Users/zero/Documents/Area/testing area/game_learning/build/CMakeFiles/rebuild_cache.dir
