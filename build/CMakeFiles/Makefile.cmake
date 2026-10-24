@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "/Users/zero/Documents/Area/testing area/game_learning/CMakeLists.txt"
-  "CMakeFiles/4.4.0/CMakeCCompiler.cmake"
-  "CMakeFiles/4.4.0/CMakeCXXCompiler.cmake"
-  "CMakeFiles/4.4.0/CMakeSystem.cmake"
+  "CMakeFiles/4.4.3/CMakeCCompiler.cmake"
+  "CMakeFiles/4.4.3/CMakeCXXCompiler.cmake"
+  "CMakeFiles/4.4.3/CMakeSystem.cmake"
   "/opt/homebrew/lib/cmake/raylib/raylib-config-version.cmake"
   "/opt/homebrew/lib/cmake/raylib/raylib-config.cmake"
   "/opt/homebrew/lib/cmake/raylib/raylib-targets-release.cmake"
